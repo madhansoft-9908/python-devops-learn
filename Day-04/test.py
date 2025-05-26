@@ -19,8 +19,14 @@ print(addition(10,4))
 x = addition(6,4)
 print(x)
 
-#example
+#module
+#Suppose you have a Python file named my_module.py
 # my_module.py
 def square(x):
     return x ** 2
 pi = 3.14159265
+
+#You can use the above module in another script:
+import my_module
+result = my_module.square(10)
+print(result)
