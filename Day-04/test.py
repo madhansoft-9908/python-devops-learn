@@ -20,7 +20,7 @@ x = addition(6,4)
 print(x)
 
 #module
-#Suppose you have a Python file named my_module.py --- already my_module.py file ispresent in the day-04 folder 
+#Suppose you have a Python file named my_module.py --- already my_module.py file is present in the day-04 folder 
 # my_module.py
 def square(x):
     return x ** 2
@@ -48,7 +48,7 @@ print(my_module.square(10))
 #from my_package import module1
 #result = module1.function_from_module1()   #function_from_module is just a function name from module1.
 
-#python workspace
+#python workspace/virtual environment
 
 # 1.pip install virtualenv
 # 2.python -m venv project-abc   ----create the project
