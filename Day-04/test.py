@@ -48,6 +48,19 @@ print(my_module.square(10))
 #from my_package import module1
 #result = module1.function_from_module1()   #function_from_module is just a function name from module1.
 
+#How to Import a Package
+#ex:
+# Import the entire module
+#import math
+
+# Use functions/variables from the module
+#result = math.sqrt(16)
+#print(result)
+
+# Import specific function/variable from a module
+#from math import pi
+#print(pi)
+
 #python workspace/virtual environment
 
 # 1.pip install virtualenv
