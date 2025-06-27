@@ -21,7 +21,7 @@ if response.status_code == 200:
     for pull in pull_requests:
         creator = pull['user']['login']
         if creator in pr_creators:
-            pr_creators[creator] += 1
+            pr_creators[creator] += 1    #first time =pr_creators["alice"] = 1,  second time = pr_creators["alice"] += 1   # Now her value becomes 2
         else:
             pr_creators[creator] = 1
 
