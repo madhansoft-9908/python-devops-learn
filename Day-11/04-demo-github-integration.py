@@ -31,3 +31,9 @@ if response.status_code == 200:
         print(f"{creator}: {count} PR(s)")
 else:
     print(f"Failed to fetch data. Status code: {response.status_code}")
+#output:
+#itssimrank: 1 PR(s)
+#stlaz: 1 PR(s)
+#drigz: 1 PR(s)
+#pohly: 3 PR(s)
+#serathius: 1 PR(s)
